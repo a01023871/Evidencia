@@ -12,6 +12,8 @@ Exercises
 from turtle import *
 from freegames import vector
 
+turtle.bgcolor("blue") #background color from grid
+
 def line(start, end):
     "Draw line from start to end."
     up()
