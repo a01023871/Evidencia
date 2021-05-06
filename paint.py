@@ -1,4 +1,6 @@
-"""Paint, for drawing shapes.
+"""
+Aranza Balleza A01023871
+Paint, for drawing shapes.
 Exercises
 1. Add a color.
 2. Complete circle.
