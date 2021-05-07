@@ -1,4 +1,6 @@
-"""Paint, for drawing shapes.
+"""
+Aranza Balleza A01023871
+Paint, for drawing shapes.
 Exercises
 1. Add a color.
 2. Complete circle.
@@ -9,6 +11,8 @@ Exercises
 
 from turtle import *
 from freegames import vector
+
+turtle.bgcolor("blue") #background color from grid
 
 def line(start, end):
     "Draw line from start to end."
@@ -94,6 +98,7 @@ onkey(lambda: color('yellow'), 'Y')
 onkey(lambda: color('cyan'), 'C')
 onkey(lambda: color('orange'), 'O')
 onkey(lambda: color('magenta'), 'M')
+onkey(lambda: color('pink'), 'P')
 onkey(lambda: store('shape', line), 'l')
 onkey(lambda: store('shape', square), 's')
 onkey(lambda: store('shape', circle), 'c')
