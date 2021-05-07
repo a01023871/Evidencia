@@ -12,7 +12,9 @@ from turtle import *
 from random import randrange
 from freegames import square, vector
 
+#Agregarle un titulo al prograrma
 turtle.title("My Snake Program")
+#Cambia el color y contorno de la flecha 
 t.color("blue", "red")
 
 food = vector(0, 0)
