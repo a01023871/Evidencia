@@ -1,4 +1,6 @@
-"""Snake, classic arcade game.
+"""
+Aranza Balleza A01023871
+Snake, classic arcade game.
 Exercises
 1. How do you make the snake faster or slower?
 2. How can you make the snake go around the edges?
@@ -10,9 +12,16 @@ from turtle import *
 from random import randrange
 from freegames import square, vector
 
+#Agregarle un titulo al prograrma
+turtle.title("My Snake Program")
+#Cambia el color y contorno de la flecha 
+t.color("blue", "red")
+
 food = vector(0, 0)
 snake = [vector(10, 0)]
 aim = vector(0, -10)
+
+
 
 def change(x, y):
     "Change snake direction."
